@@ -1,0 +1,432 @@
+.RESPONSIVE {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+	position: relative;
+	background-color: #ffffff;
+  }
+  
+  .RESPONSIVE .header {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	align-items: center;
+	gap: 20px;
+	padding: 0px 0px 30px;
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	background-color: transparent;
+	background: linear-gradient(45deg, rgb(0, 154, 154) 0%, rgb(194, 199, 174) 78.81%, rgb(233, 208, 178) 100%);
+	overflow: hidden;
+  }
+  
+  .RESPONSIVE .rectangle {
+	position: relative;
+	flex: 1;
+	width: 361px;
+	flex-grow: 1;
+  }
+  
+  .RESPONSIVE .text-wrapper {
+	position: relative;
+	width: 200vw;
+	opacity: 0.9;
+	font-family: "Inter", Helvetica;
+	font-weight: 900;
+	color: #ffffff;
+	font-size: 22vw;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+  
+  .RESPONSIVE .scopri-itinerari {
+	position: relative;
+	flex: 1;
+	width: 256px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+  
+  .RESPONSIVE .polygon {
+	position: relative;
+	width: 39.11px;
+	height: 15.37px;
+	margin-bottom: -0.62px;
+  }
+  
+  .RESPONSIVE .frame {
+	justify-content: center;
+	gap: 25px;
+	align-self: stretch;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	position: relative;
+	flex: 0 0 auto;
+  }
+  
+  .RESPONSIVE .mask-group {
+	position: relative;
+	width: 144px;
+	height: 144px;
+  }
+  
+  .RESPONSIVE .mi-chiamo-maria {
+	position: relative;
+	width: 195px;
+	height: 112px;
+	font-family: "Inter", Helvetica;
+	font-weight: 300;
+	color: #000000;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+  
+  .RESPONSIVE .logo-home {
+	position: absolute;
+	width: 176px;
+	height: 29px;
+	top: 43px;
+	left: 34px;
+	object-fit: cover;
+  }
+  
+  .RESPONSIVE .group {
+	position: absolute;
+	width: 70px;
+	height: 24px;
+	top: 45px;
+	right: 10px;
+  }
+  
+  .RESPONSIVE .div {
+	position: absolute;
+	width: 21px;
+	top: 0;
+	left: 0;
+	font-family: "Inter", Helvetica;
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+	text-decoration: underline;
+  }
+  
+  .RESPONSIVE .text-wrapper-2 {
+	position: absolute;
+	width: 37px;
+	top: 0;
+	left: 29px;
+	font-family: "Inter", Helvetica;
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+  
+  .RESPONSIVE .infografica-banmner {
+	position: absolute;
+	width: 57vw;
+	height: 100vh;
+	right: 0;
+	background-image: url(https://c.animaapp.com/ifdL0Ejc/img/infografica-banmner-1.svg);
+    background-clip: content-box;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+  }
+  
+  .RESPONSIVE .vector {
+	position: relative;
+	align-self: stretch;
+	width: 100%;
+	height: 80.5px;
+	margin-left: -0.01px;
+	margin-right: -0.01px;
+  }
+  
+  .RESPONSIVE .frame-2 {
+	flex-direction: column;
+	height: 298px;
+	align-items: center;
+	gap: 20px;
+	padding: 0px 20px;
+	align-self: stretch;
+	width: 100%;
+	display: flex;
+	position: relative;
+  }
+  
+  .RESPONSIVE .p {
+	position: relative;
+	align-self: center;
+	height: 79px;
+	margin-top: -1px;
+	font-family: "Inter", Helvetica;
+	font-weight: 300;
+	color: #000000;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: normal;
+	max-width: 400px;
+  }
+  
+  .RESPONSIVE .whatsapp-image {
+	position: relative;
+	width: 412px;
+	height: 187px;
+	object-fit: cover;
+  }
+  
+  .RESPONSIVE .frame-3 {
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	padding: 0px 20px;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+	display: flex;
+	position: relative;
+  }
+  
+  .RESPONSIVE .img {
+	position: relative;
+	width: 179px;
+	height: 159px;
+  }
+  
+  .RESPONSIVE .text-wrapper-3 {
+	position: relative;
+	flex: 1;
+	height: 168px;
+	margin-top: -1px;
+	font-family: "Inter", Helvetica;
+	font-weight: 300;
+	color: #000000;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: normal;
+	max-width: 400px;
+  }
+  
+  .RESPONSIVE .frame-4 {
+	align-items: flex-start;
+	gap: 18px;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+	background-color: #009a9a;
+	display: flex;
+	position: relative;
+  }
+  
+  .RESPONSIVE .frame-5 {
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	padding: 20px 20px 20px 40px;
+	flex: 1;
+	flex-grow: 1;
+	display: flex;
+	position: relative;
+  }
+  
+  .RESPONSIVE .text-wrapper-4 {
+	position: relative;
+	width: fit-content;
+	margin-top: -1px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 30px;
+	letter-spacing: 0;
+	line-height: normal;
+	white-space: nowrap;
+  }
+  
+  .RESPONSIVE .capo-colonna-capo {
+	position: relative;
+	width: 211px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: 25px;
+	list-style:circle;
+  }
+  
+  .RESPONSIVE .group-2 {
+	position: relative;
+	width: 182.6px;
+	height: 444.04px;
+	margin-top: -0.03px;
+	margin-bottom: -0.02px;
+	margin-right: -0.25px;
+  }
+  
+  .RESPONSIVE .frame-wrapper {
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 10px;
+	padding: 0px 20px;
+	align-self: stretch;
+	width: 100%;
+	flex: 0 0 auto;
+	display: flex;
+	position: relative;
+  }
+  
+  .RESPONSIVE .group-wrapper {
+	width: 398px;
+	gap: 10px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	flex: 0 0 auto;
+  }
+  
+  .RESPONSIVE .group-3 {
+	position: relative;
+	width: 201px;
+	height: 220px;
+	margin-bottom: 20px;
+  }
+  
+  .RESPONSIVE .overlap-group {
+	top: 0;
+	position: absolute;
+	width: 137px;
+	height: 27px;
+	left: 0;
+  }
+  
+  .RESPONSIVE .text-wrapper-5 {
+	position: absolute;
+	width: 137px;
+	top: 0;
+	left: 0;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #009a9a;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+  
+  .RESPONSIVE .vector-2 {
+	position: absolute;
+	width: 100px;
+	height: 1px;
+	top: 26px;
+	left: 0;
+  }
+  
+  .RESPONSIVE .overlap {
+	top: 130px;
+	position: absolute;
+	width: 137px;
+	height: 27px;
+	left: 0;
+  }
+  
+  .RESPONSIVE .text-wrapper-6 {
+	position: absolute;
+	width: 162px;
+	top: 38px;
+	left: 27px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #009a9a;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+  
+  .RESPONSIVE .text-wrapper-7 {
+	top: 169px;
+	position: absolute;
+	width: 162px;
+	left: 27px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #009a9a;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: normal;
+	white-space: nowrap;
+  }
+  
+  .RESPONSIVE .text-wrapper-8 {
+	top: 201px;
+	position: absolute;
+	width: 162px;
+	left: 27px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #009a9a;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: normal;
+	white-space: nowrap;
+  }
+  
+  .RESPONSIVE .text-wrapper-9 {
+	position: absolute;
+	width: 162px;
+	top: 68px;
+	left: 27px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #009a9a;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+  
+  .RESPONSIVE .vector-3 {
+	position: absolute;
+	width: 18px;
+	height: 13px;
+	top: 70px;
+	left: 0;
+  }
+  
+  .RESPONSIVE .vector-4 {
+	position: absolute;
+	width: 18px;
+	height: 17px;
+	top: 170px;
+	left: 0;
+  }
+  
+  .RESPONSIVE .vector-5 {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	top: 38px;
+	left: 0;
+  }
+  
+  .RESPONSIVE .vector-6 {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	top: 201px;
+	left: 0;
+  }
