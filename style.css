@@ -137,9 +137,10 @@
 	line-height: normal;
   }
   
+  @media only screen and (max-width: 600px) {
   .RESPONSIVE .infografica-banmner {
 	position: absolute;
-	width: 57vw;
+	width: 100vw;
 	height: 100vh;
 	right: 0;
 	background-image: url(https://c.animaapp.com/ifdL0Ejc/img/infografica-banmner-1.svg);
@@ -148,7 +149,21 @@
 	background-repeat: no-repeat;
 	background-position: center;
   }
-  
+}
+
+@media only screen and (min-width: 601px) {
+	.RESPONSIVE .infografica-banmner {
+	  position: absolute;
+	  width: 57vw;
+	  height: 100vh;
+	  right: 0;
+	  background-image: url(https://c.animaapp.com/ifdL0Ejc/img/infografica-banmner-1.svg);
+	  background-clip: content-box;
+	  background-size: contain;
+	  background-repeat: no-repeat;
+	  background-position: center;
+	}
+  }
   .RESPONSIVE .vector {
 	position: relative;
 	align-self: stretch;
